@@ -1,0 +1,31 @@
+body {
+    padding: 10px 30px;
+    background-color: #80a441a1;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+header, footer{
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    color: #1a200e;
+}
+a:hover {
+    color: green;
+}
+img {
+    float: left;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+img:hover {
+    filter: grayscale(100%);
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mariana Berrill">
+    <title>Spoke & Hub - Contact us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact us @SPoke&Hub</h1>
+    <p>How to find us / contact us</p>
+</header>
+
+<div class="container p-3">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Map of Location</h2>
+            <address>
+                286 Fox Lane <br>
+                Leyland, Lancashire<br>
+                PR25 1HJ, UK, EARTH
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2362.6405262180965!2d-2.715822600000015!3d53.68903190000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b12a3ecc54acd%3A0x9337333656f1c562!2s286%20Fox%20Ln%2C%20Leyland%20PR25%201HJ!5e0!3m2!1sen!2suk!4v1710184940527!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-md-6">  <h2>Email us</h2>
+
+            <form method="get" action="/thanks.html">
+                <div class="mb-3">
+                    <label for="Name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="Name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="Email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" required>
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="Phone" class="form-label">Phone</label>
+                    <input type="tel" class="form-control" id="Phone" required>
+                </div>
+                <div class="mb-3">
+                    <label for="Subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="Subject" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Message" class="form-label">Message</label>
+                    <textarea class="form-control" id="Message" rows="3" required></textarea>
+                </div>
+
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" for="exampleCheck1">I agree to submitting my information</label>
+                </div>
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024. Mariana Berrill</p>
+</footer>
+</body>
+</html>
+
